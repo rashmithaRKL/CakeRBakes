@@ -34,6 +34,10 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Custom animations -->
+  <link href="css/animations.css" rel="stylesheet" />
 
   <style>
     #topic{
@@ -111,6 +115,8 @@
 </head>
 
 <body>
+  <!-- Loading Animation -->
+  <div class="loading"></div>
 
   <!-- <div class="main_body_content"> -->
 
@@ -126,7 +132,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="detail_box">
+                    <div class="detail_box" data-aos="fade-right" data-aos-duration="1200">
                       <h1>
                         Fresh Cakes  <br>
                         <span>
@@ -142,7 +148,7 @@
                     </div>
                   </div>
                   <div class="col-md-4 ml-auto">
-                    <div class="img-box">
+                    <div class="img-box" data-aos="fade-left" data-aos-duration="1200">
                       <img src="images/cake2.png" alt="">
                     </div>
                   </div>
@@ -221,12 +227,12 @@
 
     <!-- about section -->
 
-    <section class="about_section layout_padding ">
+    <section class="about_section layout_padding fade-in">
       <div class="container  ">
         <div class="row">
           <div class="col-md-6">
             <div class="detail-box">
-              <div class="heading_container">
+              <div class="heading_container" data-aos="fade-right">
                 <h2>
                   About Our Company
                 </h2>
@@ -243,7 +249,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="img-box">
+            <div class="img-box" data-aos="fade-left">
               <img src="images/cake3.png" alt="">
             </div>
           </div>
@@ -376,7 +382,7 @@
       
        <!-- <div id="topic"> -->
         <div class="container">
-          <div class="heading_container">
+        <div class="heading_container" data-aos="fade-up">
             <h2 class="offset-lg-4">
               Delicious Cake Creations 
             </h2>
@@ -390,9 +396,9 @@
         <!-- <div class="container"> -->
         <div class="row" style="margin-left: 10px;">
     <!-- Card 1 -->
-    <div class="col-lg-3">
+    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
         <a href="product.php">
-            <div class="card">
+            <div class="card slide-in">
                 <div class="card-image">
                     <img src="images/1.png" alt="Sutin Martin Cake">
                 </div>
@@ -406,9 +412,9 @@
     </div>
 
     <!-- Card 2 -->
-    <div class="col-lg-3">
+    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="200">
         <a href="product.php">
-            <div class="card">
+            <div class="card slide-in">
                 <div class="card-image">
                     <img src="images/2.png" alt="Vanilla Car Design">
                 </div>
@@ -422,9 +428,9 @@
     </div>
 
     <!-- Card 3 -->
-    <div class="col-lg-3">
+    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
         <a href="product.php">
-            <div class="card">
+            <div class="card slide-in">
                 <div class="card-image">
                     <img src="images/6.png" alt="Engagement Cake">
                 </div>
@@ -438,9 +444,9 @@
     </div>
 
     <!-- Card 4 -->
-    <div class="col-lg-3">
+    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="400">
         <a href="product.php">
-            <div class="card">
+            <div class="card slide-in">
                 <div class="card-image">
                     <img src="images/10.png" alt="Vanilla Cake">
                 </div>
@@ -465,7 +471,7 @@
 
     <!-- offer section -->
 
-    <section class="offer_section layout_padding">
+    <section class="offer_section layout_padding fade-in">
       <div class="container">
         <div class="box">
           <div class="detail-box">
@@ -507,15 +513,15 @@
 
     <!-- client section -->
 
-    <section class="client_section">
+    <section class="client_section fade-in">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-4 ml-auto">
+          <div class="col-lg-4 ml-auto" data-aos="fade-right" data-aos-duration="1000">
             <div class="img-box sub_img-box">
               <img src="images/about.webp" alt="">
             </div>
           </div>
-          <div class="col-lg-6 px-0">
+          <div class="col-lg-6 px-0" data-aos="fade-left" data-aos-duration="1000">
             <div class="client_container">
               <div class="heading_container">
                 <h2>
@@ -595,11 +601,11 @@
 
     <!-- contact section -->
 
-    <section class="contact_section layout_padding">
+    <section class="contact_section layout_padding fade-in">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-5 col-lg-4 offset-md-1 offset-lg-2">
-            <div class="form_container">
+            <div class="form_container" data-aos="fade-up" data-aos-duration="1000">
               <div class="heading_container">
                 <h2>
                   Contact Us
@@ -627,7 +633,7 @@
             </div>
           </div>
           <div class="col-md-5  px-0">
-            <div class="map_container">
+            <div class="map_container" data-aos="fade-up" data-aos-delay="200">
               <div class="map">
                 <div >
                 <iframe style="border:0; width: 100%; height: 640px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507069.66972943005!2d79.46586627343751!3d6.832690400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253a3d37ac853%3A0x88205e1a91e6c19b!2sRK%20Software%20Solution!5e0!3m2!1sen!2slk!4v1701756448636!5m2!1sen!2slk" frameborder="0" allowfullscreen></iframe>
@@ -657,15 +663,44 @@
   <!-- custom js -->
   <script  src="js/custom.js"></script>
   <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
-  <!-- End Google Map -->
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Custom animations -->
+  <script src="js/scroll-animations.js"></script>
+
+  <script>
+    // Initialize AOS
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 100,
+        easing: 'ease-in-out'
+      });
+    });
+
+    // Remove loading animation when page is loaded
+    window.addEventListener('load', function() {
+      const loader = document.querySelector('.loading');
+      if (loader) {
+        loader.style.display = 'none';
+      }
+    });
+  </script>
 
   <script>
   // JavaScript to toggle dropdown on click
-  document.querySelector('a[href="signup.php"]').addEventListener('click', function(e) {
-    e.preventDefault();
-    const dropdownContent = this.nextElementSibling;
-    dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+  document.addEventListener('DOMContentLoaded', function() {
+    const dropdownToggle = document.querySelector('a[href="signup.php"]');
+    if (dropdownToggle) {
+      dropdownToggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        const dropdownContent = this.nextElementSibling;
+        if (dropdownContent) {
+          dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+        }
+      });
+    }
   });
 </script>
 

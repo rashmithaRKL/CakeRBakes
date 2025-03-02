@@ -1,7 +1,7 @@
 <header class="header_section">
         <div class="container-fluid fixed-top bg-white">
           <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.html" data-aos="fade-right">
               CakesRBakes
             </a>
             </a>
@@ -10,7 +10,7 @@
             </button>
 
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
+              <ul class="navbar-nav ml-auto" data-aos="fade-left">
                 <li class="nav-item active">
                   <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -21,7 +21,7 @@
   <a class="nav-link dropdown-toggle" href="#" id="shopDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Shop
   </a>
-  <ul class="dropdown-menu" aria-labelledby="shopDropdown">
+  <ul class="dropdown-menu fade-in" aria-labelledby="shopDropdown">
     <li><a class="dropdown-item" href="cakes.php">Cakes</a></li>
     <li><a class="dropdown-item" href="ingredients.php">Ingredients</a></li>
     <li><a class="dropdown-item" href="decorations.php">Decorations</a></li>
@@ -36,7 +36,7 @@
   <a class="nav-link dropdown-toggle" href="#" id="shopDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
   <i class="fa fa-user" aria-hidden="true"></i>
   </a>
-  <ul class="dropdown-menu" aria-labelledby="shopDropdown">
+  <ul class="dropdown-menu fade-in" aria-labelledby="shopDropdown">
     <li><a class="dropdown-item" href="profile.php">Profile</a></li>
     <li><a class="dropdown-item" href="cart.php">Cart</a></li>
     <li><a class="dropdown-item" href="logout.php">Logout</a></li>
